@@ -364,7 +364,8 @@ img {
   transition: background-color var(--transition-base);
 }
 
-.team-link:hover span {
+.team-link:hover,
+.team-link:focus {
   background-color: var(--pressed-state-color);
 }
 
@@ -584,7 +585,6 @@ img {
 }
 
 #customers .section-list-item .link {
-  padding: 16px 32px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -597,7 +597,7 @@ img {
 }
 
 #customers .customer-icon {
-  fill: var(--light-slate);
+  fill: currentColor;
   transition: fill var(--transition-base);
 }
 
