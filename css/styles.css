@@ -556,7 +556,8 @@ img {
   transition: transform var(--transition-base);
 }
 
-#portfolio .section-list-item:hover .portfolio-hover-info {
+#portfolio .section-list-item:hover .portfolio-hover-info,
+#portfolio .section-list-item:focus .portfolio-hover-info {
   transform: translateY(0%);
   overflow: visible;
 }
