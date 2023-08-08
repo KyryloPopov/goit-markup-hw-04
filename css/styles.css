@@ -557,7 +557,7 @@ img {
 }
 
 #portfolio .section-list-item:hover .portfolio-hover-info {
-  transform: translateY(0);
+  transform: translateY(0%);
   overflow: visible;
 }
 
